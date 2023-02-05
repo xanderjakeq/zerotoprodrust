@@ -2,6 +2,7 @@
 name = "rust_server"
 version = "0.1.0"
 edition = "2021"
+default_run = "./target/release/rust_server"
 
 [target.x86_64-unknown-linux-gnu]
 rustflags = ["-C", "linker=clang", "-C", "link-arg=-fuse-ld=lld"]
@@ -13,6 +14,7 @@ path = "src/lib.rs"
 
 [[bin]]
 path = "src/main.rs"
+name = "rust_server"
 
 [dependencies]
 actix-web = "4.3.0"
