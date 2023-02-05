@@ -13,7 +13,6 @@ path = "src/lib.rs"
 
 [[bin]]
 path = "src/main.rs"
-name = "wips_rust_server"
 
 [dependencies]
 actix-web = "4.3.0"
